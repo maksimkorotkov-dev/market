@@ -31,3 +31,38 @@ body {
 	margin: 0 auto;
 	padding: 0 15px;
 }
+
+.container-fluid {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+@media (max-width: 720px) {
+	.container-fluid {
+		padding: 0 15px;
+	}
+}
+
+.title {
+	text-align: center;
+	padding-bottom: 30px;
+	color: $bg-color;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 60px;
+}
+
+.product-slider__title {
+	text-align: center;
+	padding-bottom: 30px;
+	color: $bg-color;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 60px;
+}
+
+.rate-star {
+	display: inline-block;
+	margin-right: 13px;
+}
